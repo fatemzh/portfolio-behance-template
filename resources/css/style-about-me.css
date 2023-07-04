@@ -18,8 +18,8 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 220px;
-    min-height: 100%;
-    background: rgba(0, 74, 143, 0.69);
+    min-height: 969px;
+    background: rgba(125, 181, 233, 0.69);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.9px);
     -webkit-backdrop-filter: blur(4.9px);
@@ -94,22 +94,22 @@ header p{
 main{
     display: flex;
     flex-direction: column;
+    width: 85%;
 }
 
 #upper-part{
     display: flex;
     justify-content: center;
-    margin: 120px 50px 40px 170px;
-    width: 1300px;
-    height: 800px;
+    margin: 10px 50px 40px 120px;
+    min-height: 800px;
 }
 
-#profile-picture, #personal-infos, #frame-right-part, #name-job{
+#profile-picture, #personal-infos, #frame-right-part, #name-job, #experience-text, #timeline{
     display: flex;
     flex-direction: column;
 }
 
-#pro-life-synthetised, .row, .infos, #download-resume, #upper-part, #years{
+#pro-life-synthetised, .row, .infos, #download-resume, #upper-part, #years, #lower-part, #where-and-when{
     display: flex;
     flex-direction: row;
 }
@@ -126,7 +126,7 @@ main{
     margin: 0;
 }
 
-#name-job h2{
+#name-job h2, #experience-text h2{
     font-size: 40px;
 }
 
@@ -170,8 +170,12 @@ main{
     justify-content: space-around;
     height: 150px;
     width: 600px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     border-bottom: solid rgb(212, 212, 212) 1px;
+}
+
+.row{
+    padding: 10px;
 }
 
 .infos{
@@ -195,6 +199,27 @@ main{
 #years h4{
     padding: 10px;
 }
+
+#lower-part{
+    background: rgb(204,127,255);
+    background: linear-gradient(90deg, rgba(204,127,255,1) 0%, rgba(134,165,237,1) 29%, rgba(124,124,255,1) 50%, rgba(139,217,255,1) 74%, rgba(77,101,255,1) 100%);
+    padding: 50px;
+    width: 100%;
+}
+
+#experience-text, #timeline{
+    width: 50%;
+    min-height: 400px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+#experience-text h2{
+    padding: 30px 0px;
+}
+
 
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW  IMAGES WWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 #profile-picture img{

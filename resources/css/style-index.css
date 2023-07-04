@@ -19,7 +19,7 @@ header{
     align-items: center;
     width: 220px;
     height: 969px;
-    background: rgba(0, 74, 143, 0.69);
+    background: rgba(125, 181, 233, 0.69);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.9px);
     -webkit-backdrop-filter: blur(4.9px);
@@ -94,14 +94,11 @@ header p{
 main{
     display: flex;
     flex-direction: row;
-    width: 1200px;
+    width: 85%;
     height: 700px;
     margin: 100px auto;
     padding: 50px;
     color: black;
-    /* border-radius: 30px;
-    background: #ebefff;
-    box-shadow:  7px 7px 15px #b5b8c4,-7px -7px 15px #ffffff; */
 }
 
 #img-presentation img{
