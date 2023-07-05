@@ -104,3 +104,45 @@ main{
     margin: 100px;
     padding: 50px;
 }
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 650px;
+    width: 900px;
+    padding: 30px;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: row;
+    height: 230px;
+    width: 380px;
+    margin: 20px;
+}
+
+.title-project{
+    margin: 10px;
+    width: 35%;
+}
+
+.title-project h3{
+    font-style: italic;
+    font-size: 15px
+}
+
+.title-project h2{
+    margin: 5px 0px;
+}
+
+.project-card .title-project img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.project-card img{
+    height: 200px;
+    width: 65%;
+}
