@@ -19,7 +19,7 @@ header{
     align-items: center;
     width: 15%;
     min-height: 969px;
-    background: rgba(125, 181, 233, 0.69);
+    background: rgb(0, 0, 0);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.9px);
     -webkit-backdrop-filter: blur(4.9px);

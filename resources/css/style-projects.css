@@ -13,14 +13,23 @@ body{
 }
 
 header{
-    background-color: black;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 220px;
-    height: 969px;
+    width: 15%;
+    min-height: 969px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(0, 74, 143, 0.13);
+    color: white;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    transition: top 0.3s;
+    z-index: 999; */
 }
 
 #upper-part-header{
@@ -41,13 +50,17 @@ nav ul{
 
 nav ul li{
     padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
 }
 
-nav ul li:hover{
-    color: rgb(236, 216, 216);
-    text-decoration:underline;
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgba(192, 224, 255, 0.6);
+    cursor: pointer;
 }
 
 #social-medias{
@@ -74,6 +87,20 @@ nav ul li:hover{
     font-size: 12px;
 }
 
+.social p{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
 header p{
-    font-size: 10px;
+    font-size: 9px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100%;
+    margin: 100px;
+    padding: 50px;
 }
