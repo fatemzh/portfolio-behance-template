@@ -17,14 +17,19 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 220px;
-    height: 969px;
+    width: 15%;
+    min-height: 969px;
     background: rgba(125, 181, 233, 0.69);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.9px);
     -webkit-backdrop-filter: blur(4.9px);
     border: 1px solid rgba(0, 74, 143, 0.13);
     color: white;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    transition: top 0.3s;
+    z-index: 999; */
 }
 
 #upper-part-header{

@@ -1,10 +1,15 @@
-window.addEventListener('scroll', function() {
-    var header = document.querySelector('.header');
-    var scrollPosition = window.scrollY;
-
-    if (scrollPosition > 0) {
-        header.classList.add('scrolled');
-    } else {
-        header.classList.remove('scrolled');
-    }
-});
+window.addEventListener('load', function() {
+    const toggle = document.querySelector('.toggle');
+    const content = document.querySelector('.content');
+  
+    toggle.addEventListener('click', function() {
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        toggle.textContent = '-';
+      } else {
+        content.style.display = 'none';
+        toggle.textContent = '+';
+      }
+    });
+  });
+  
