@@ -117,12 +117,36 @@ h1{
     height: 100%;
 }
 
+#hidden-cards {
+    display: none;
+    flex-wrap: wrap; /* Permet aux éléments de se placer sur plusieurs lignes si nécessaire */
+    justify-content: center;
+    width: 1000px;
+    padding: 50px;
+  }
+  
+  .hidden-article-card {
+    display: inline-flex; /* Affiche les éléments en ligne */
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    border-bottom: solid rgba(0, 0, 0, 0.3) 1px;
+    cursor: pointer;
+    width: 250px;
+    height: fit-content;
+  }
+  
+  .hidden-article-card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
 .article-card{
     display: flex;
     flex-direction: column;
     height: fit-content;
     width: 250px;
-    margin: 20px;
     padding: 10px;
     margin: 10px 25px 110px 25px;
     border-bottom: solid rgba(0,0,0,0.3) 1px;
@@ -157,7 +181,6 @@ h1{
 #see-more p:hover{
     border-bottom: solid rgba(0,0,0,0.7) 1px;
 }
-
 
 
 .article-card img{
