@@ -98,9 +98,126 @@ header p{
 
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 85%;
     height: 100%;
     margin: 100px;
     padding: 50px;
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    padding: 30px;
+}
+
+h1{
+    margin: 20px 0px;
+}
+
+#details{
+    margin: 100px 0px;
+}
+
+h3{
+    margin: 15px 0px;
+}
+
+#contact-for-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    border-radius: 26px;
+    background: #91a7ff;
+    opacity: calc(0.8);
+    box-shadow:  9px 9px 19px #a8a6c4,
+    -9px -9px 19px #ffffff; 
+}
+
+#sender-infos{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    color: white;
+}
+
+#sender-message{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.label-pack{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 15px
+}
+
+label{
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 6px;
+    outline: none;
+    width: 130px;
+    margin-left: 5px;
+}
+
+textarea{
+    border: none;
+    background: rgba(255,255,255,0.2);
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 6px;
+    outline: none;
+}
+
+label#attach-file {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 16px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 15px;
+    background-color: rgba(3, 17, 174, 0.378);
+  }
+
+  label#attach-file:hover{
+    background-color: rgba(3, 17, 174, 0.8);
+  }
+  
+  label#attach-file p {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+
+  label#attach-file img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  input[type=file] {
+    display: none;
+  }
+  
+input[type=button]{
+    border: solid white 1px;
+    border-radius: 20px;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 16px;
+    cursor: pointer;
 }

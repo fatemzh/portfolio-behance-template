@@ -43,23 +43,32 @@
         <div id="infos">
             <p>Contact</p>
             <h1>Prenons contact</h1>
-            <h3>+XX XXX XXX XX XX</h3>
-            <h3>xxxxxxxxxxxx@xxxxxxxxx.com</h3>
+            <div id="details">
+                <h3>+41 123 456 78 90</h3>
+                <h3>adresse-email@gmail.com</h3>
+            </div>
         </div>
         <div id="contact-for-projects">
             <div id="sender-infos">
-                <label for="name">Ton nom</label>
-                <input  id="name" type="text">
-                <label for="email">Ton adresse email</label>
-                <input id="email" type="email">
+                <div class="label-pack">
+                    <label for="name">Nom</label>
+                    <input  id="name" type="text">
+                </div>
+                <div class="label-pack">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
             </div>
             <div id="sender-message">
-                <label id="message">Ecris ton message ici</label>
+                <label id="message">Message</label>
                 <textarea></textarea>
-                <label for="myfile">Attacher un fichier</label>
-                <input type="file" id="myfile" name="myfile">
-                <input type="button" value="Envoyer" class="submit-button">
+                <label for="myfile" id="attach-file">
+                    <p>Joindre un fichier</p>
+                    <img src="../../resources/images/Icons/paperclip-solid.svg" alt="Icône de fichier">
+                </label>
+                <input type="file" id="myfile" name="myfile">                  
             </div>
+            <input type="button" value="Envoyer" class="submit-button">
         </div>
     </main>
 </body>
